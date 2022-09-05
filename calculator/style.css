@@ -1,3 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background: linear-gradient(to right, #00aaff, #00ff6c);
+}
+
+header {
+  align-items: center;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 .btn {
   background-color: #dadce0;
   cursor: pointer;
