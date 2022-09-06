@@ -1,6 +1,7 @@
 //
-const numberButtons = document.querySelectorAll(".btn");
-const operationButtons = document.querySelectorAll("");
+const numberButtons = document.querySelectorAll("[data-number]");
+const operationButtons = document.querySelectorAll("[data-operation]");
+const equalButton = document.querySelector("[data-equals]");
 
 //Display number after click
 const buttons = document.querySelectorAll(".btn");

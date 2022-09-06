@@ -11,12 +11,17 @@ body {
 }
 
 header {
-  align-items: center;
+  height: 100px;
 }
 main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
 }
 .btn {
   background-color: #dadce0;
@@ -37,7 +42,13 @@ main {
   background-color: #4285f4;
 }
 
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
 .input {
   height: 60px;
   width: 720px;
+}
+
+.ouput {
 }
